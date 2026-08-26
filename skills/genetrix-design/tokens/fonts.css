@@ -1,0 +1,4 @@
+/* Genetrix uses Montserrat as its single typeface (Google Fonts — the genuine
+   family, not a substitute). Three working weights: 300 SemiLight (body),
+   600 SemiBold (hierarchy), 900 Black (affirmation). */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');

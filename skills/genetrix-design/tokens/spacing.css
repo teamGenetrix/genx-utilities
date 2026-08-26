@@ -1,0 +1,23 @@
+/* ============================================================
+   GENETRIX · SPACING & LAYOUT
+   Base-8 rhythm with a 4px half-step. 12-column grid, 1120px max.
+   ============================================================ */
+:root {
+  --gx-s1: 4px;
+  --gx-s2: 8px;
+  --gx-s3: 12px;
+  --gx-s4: 16px;
+  --gx-s5: 24px;
+  --gx-s6: 32px;
+  --gx-s7: 48px;
+  --gx-s8: 64px;
+  --gx-s9: 96px;
+  --gx-s10: 128px;
+
+  --gx-gutter: 24px;
+  --gx-maxw: 1120px;
+  --gx-columns: 12; /* @kind other */
+
+  /* Reading measure for body copy: ~65–75 characters */
+  --gx-measure: 68ch; /* @kind other */
+}

@@ -1,0 +1,35 @@
+/* ============================================================
+   GENETRIX · EFFECTS
+   Radii, shadows, borders, motion. Corners are calm (12–16px on
+   surfaces, pill for chips/toggles). Shadows are soft and deep,
+   never colored. Motion is quick and understated — no bounce.
+   ============================================================ */
+:root {
+  /* Radius */
+  --gx-r-xs: 5px;
+  --gx-r-sm: 8px;
+  --gx-r-md: 12px;
+  --gx-r-lg: 16px;
+  --gx-r-xl: 24px;
+  --gx-r-pill: 999px;
+
+  /* Border widths */
+  --gx-bw: 1px;
+  --gx-bw-accent: 4px; /* the top-rule accent on pillar/voice cards */
+
+  /* Shadows — neutral, layered */
+  --gx-shadow-sm: 0 1px 2px rgba(20, 20, 20, 0.06), 0 1px 3px rgba(20, 20, 20, 0.08);
+  --gx-shadow-md: 0 8px 24px rgba(20, 20, 20, 0.10);
+  --gx-shadow-lg: 0 18px 40px rgba(20, 20, 20, 0.14);
+  --gx-shadow-xl: 0 18px 40px rgba(0, 0, 0, 0.28); /* dark cards / mocks */
+
+  /* Focus */
+  --gx-focus-ring-width: 3px; /* @kind other */
+
+  /* Motion */
+  --gx-ease: cubic-bezier(0.2, 0.6, 0.2, 1); /* @kind other */
+  --gx-ease-out: cubic-bezier(0.16, 1, 0.3, 1); /* @kind other */
+  --gx-dur-fast: 120ms; /* @kind other */
+  --gx-dur: 200ms; /* @kind other */
+  --gx-dur-slow: 320ms; /* @kind other */
+}

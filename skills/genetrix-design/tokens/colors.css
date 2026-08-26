@@ -1,0 +1,54 @@
+/* ============================================================
+   GENETRIX · COLORS
+   A closed palette: sober base (noir / gris / blanc), one decisive
+   red used as an accent — never a large flat fill, except the logo block.
+   ============================================================ */
+:root {
+  /* --- Primitives: red ramp --- */
+  --gx-red-50:  #FBE6E6;
+  --gx-red-100: #F6C2C2;
+  --gx-red-200: #EE9A9A;
+  --gx-red-300: #E36A6A;
+  --gx-red-400: #DA3A3A;
+  --gx-red-500: #D00000; /* brand red — "le rouge décisif" */
+  --gx-red-600: #B80000; /* hover */
+  --gx-red-700: #9A0000; /* active / pressed */
+  --gx-red-800: #7A0000;
+
+  /* --- Primitives: neutrals --- */
+  --gx-noir:      #141414; /* ink / dark surfaces */
+  --gx-gris:      #5A5A5A; /* muted text, captions, borders */
+  --gx-gris-clr:  #F0F0F0; /* light surface / alternation */
+  --gx-blanc:     #FFFFFF;
+  --gx-rose:      #F7E9EB; /* faint rose wash, accent tint */
+  --gx-line:      #E7E7E7; /* hairline borders */
+  --gx-line-soft: #F1F1F1;
+
+  /* --- Semantic aliases --- */
+  --gx-accent:          var(--gx-red-500);
+  --gx-accent-hover:    var(--gx-red-600);
+  --gx-accent-active:   var(--gx-red-700);
+  --gx-accent-disabled: var(--gx-red-100);
+  --gx-accent-tint:     var(--gx-rose);
+
+  --gx-text:        var(--gx-noir);
+  --gx-text-muted:  var(--gx-gris);
+  --gx-text-invert: var(--gx-blanc);
+  --gx-text-on-accent: var(--gx-blanc);
+
+  --gx-surface:      var(--gx-blanc);
+  --gx-surface-alt:  var(--gx-gris-clr);
+  --gx-surface-dark: var(--gx-noir);
+
+  --gx-border:      var(--gx-line);
+  --gx-border-soft: var(--gx-line-soft);
+  --gx-focus-ring:  rgba(208, 0, 0, 0.28);
+
+  /* --- Status (kept muted; red reserved for brand) --- */
+  --gx-success: #1A7A3C;
+  --gx-success-bg: #E7F6EC;
+  --gx-warning: #9A6A10;
+  --gx-warning-bg: #FDF3E3;
+  --gx-danger: #B80000;
+  --gx-danger-bg: #FBE6E6;
+}

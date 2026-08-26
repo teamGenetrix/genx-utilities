@@ -1,0 +1,23 @@
+{
+  "name": "genetrix",
+  "version": "1.1.0",
+  "description": "La marque Genetrix (Consulting · Training · Coaching · Technology) dans tous les livrables : interfaces et prototypes d'un côté, documents Word, PowerPoint, PDF et HTML de l'autre. Charte, jetons, polices, logos et moteurs de production inclus.",
+  "author": {
+    "name": "Genetrix",
+    "email": "info@genetrix.ci",
+    "url": "https://www.genetrix.ci"
+  },
+  "homepage": "https://www.genetrix.ci",
+  "keywords": [
+    "genetrix",
+    "design system",
+    "charte graphique",
+    "conseil",
+    "formation",
+    "coaching",
+    "proposition commerciale",
+    "rapport de mission",
+    "docx",
+    "pptx"
+  ]
+}

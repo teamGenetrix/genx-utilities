@@ -1,0 +1,42 @@
+/* ============================================================
+   GENETRIX · TYPOGRAPHY
+   One voice: Montserrat. Modular scale ratio 1.25.
+   Black (900) affirms · SemiBold (600) structures · SemiLight (300) reads.
+   Never fake bold — weight comes from the font.
+   ============================================================ */
+:root {
+  --gx-font: 'Montserrat', 'Segoe UI', Arial, Helvetica, sans-serif;
+  --gx-font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Weights */
+  --gx-w-light: 300; /* @kind font */
+  --gx-w-regular: 400; /* @kind font */
+  --gx-w-medium: 500; /* @kind font */
+  --gx-w-semibold: 600; /* @kind font */
+  --gx-w-black: 900; /* @kind font */
+
+  /* Type scale (px) — display down to legend */
+  --gx-fs-display: 56px;
+  --gx-fs-h1: 44px;
+  --gx-fs-h2: 33px;
+  --gx-fs-h3: 25px;
+  --gx-fs-subtitle: 20px;
+  --gx-fs-body-lg: 18px;
+  --gx-fs-body: 16px;
+  --gx-fs-sm: 14px;
+  --gx-fs-legend: 13px;
+  --gx-fs-xs: 11px;
+
+  /* Line heights */
+  --gx-lh-display: 1.0; /* @kind other */
+  --gx-lh-tight: 1.1; /* @kind other */
+  --gx-lh-heading: 1.2; /* @kind other */
+  --gx-lh-body: 1.6; /* @kind other */
+
+  /* Letter spacing */
+  --gx-ls-display: -0.015em; /* @kind other */
+  --gx-ls-heading: -0.01em; /* @kind other */
+  --gx-ls-body: 0.005em; /* @kind other */
+  --gx-ls-legend: 0.08em; /* @kind other */
+  --gx-ls-eyebrow: 0.3em; /* @kind other */
+}
